@@ -1,4 +1,4 @@
-import getHealthStatus from '../app';
+import getHealthStatus from '../getHealthStatus';
 
 test('returns correct string with 60', () => {
   expect(getHealthStatus({ name: 'Warrior', health: 60 }))
